@@ -9,23 +9,23 @@ jobs:
   build-and-deploy:
     runs-on:  ubuntu-latest
 
-  steps:
-    - name: Checkout repository
-      uses: action/checkout@v4
+steps:
+  - name: Checkout repository
+    uses: action/checkout@v4
 
-    - name: Set up NodeJS
-      uses: action/setup-node@v4
-      with:
-        node-version: '20'
-    
-    - name: Install dependencies
-      run: npm install 
+  - name: Set up NodeJS
+    uses: action/setup-node@v4
+    with:
+      node-version: '20'
+  
+  - name: Install dependencies
+    run: npm install
 
-    - name: Build React App
-      run: npm run build
+  - name: Build React App
+    run: npm run build
 
-    - name: Deploy to Github Pages
-      uses: peaceiris/actions-gh-pages@v4
-      with:
-        github_token: ${{ secrets.GITHUB_TOKEN }}
-        publish_dir: ./dist
+  - name: Deploy to Github Pages
+    uses: peaceiris/actions-gh-pages@v4
+    with:
+      github_token: ${{ secrets.GITHUB_TOKEN }}
+      publish_dir: ./dist
