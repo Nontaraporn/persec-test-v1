@@ -1,0 +1,182 @@
+[
+  {
+    "id": 202603010001,
+    "name": "Premium Box",
+    "price": 499,
+    "icon": "📦",
+    "createDate": "2026-02-28T14:35:00Z",
+    "createdBy": "Test_Em",
+    "published": true
+  },
+  {
+    "id": 202603010002,
+    "name": "Box",
+    "price": 299,
+    "icon": "📦",
+    "createDate": "2026-03-01T16:20:00Z",
+    "createdBy": "Test_Em",
+    "published": true
+  },
+  {
+    "id": 202603010003,
+    "name": "Secret Pack",
+    "price": 299,
+    "icon": "🎁",
+    "createDate": "2026-02-28T14:36:00Z",
+    "createdBy": "Test_Em",
+    "published": false
+  },
+  {
+    "id": 202603010004,
+    "name": "Magic Cube",
+    "price": 199,
+    "icon": "🪄",
+    "createDate": "2026-02-25T09:45:00Z",
+    "createdBy": "Admin",
+    "published": true
+  },
+  {
+    "id": 202603010005,
+    "name": "Smart Lamp",
+    "price": 899,
+    "icon": "💡",
+    "createDate": "2026-02-26T12:00:00Z",
+    "createdBy": "Test_Em",
+    "published": true
+  },
+  {
+    "id": 202603010006,
+    "name": "Wireless Earbuds",
+    "price": 1299,
+    "icon": "🎧",
+    "createDate": "2026-02-20T08:00:00Z",
+    "createdBy": "Admin",
+    "published": true
+  },
+  {
+    "id": 202603010007,
+    "name": "Pro Laptop",
+    "price": 35999,
+    "icon": "💻",
+    "createDate": "2026-02-18T17:10:00Z",
+    "createdBy": "Admin",
+    "published": false
+  },
+  {
+    "id": 202603010008,
+    "name": "Gaming Mouse",
+    "price": 799,
+    "icon": "🖱️",
+    "createDate": "2026-02-24T11:30:00Z",
+    "createdBy": "Test_Em",
+    "published": true
+  },
+  {
+    "id": 202603010009,
+    "name": "Keyboard Pro",
+    "price": 1499,
+    "icon": "⌨️",
+    "createDate": "2026-02-22T10:00:00Z",
+    "createdBy": "Admin",
+    "published": true
+  },
+  {
+    "id": 202603010010,
+    "name": "Smartphone X",
+    "price": 25999,
+    "icon": "📱",
+    "createDate": "2026-02-21T13:15:00Z",
+    "createdBy": "Admin",
+    "published": true
+  },
+  {
+    "id": 202603010011,
+    "name": "Digital Camera",
+    "price": 15999,
+    "icon": "📸",
+    "createDate": "2026-02-19T08:40:00Z",
+    "createdBy": "Admin",
+    "published": false
+  },
+  {
+    "id": 202603010012,
+    "name": "Fitness Watch",
+    "price": 2499,
+    "icon": "⌚",
+    "createDate": "2026-02-27T18:45:00Z",
+    "createdBy": "Test_Em",
+    "published": true
+  },
+  {
+    "id": 202603010013,
+    "name": "Coffee Maker",
+    "price": 3499,
+    "icon": "☕",
+    "createDate": "2026-02-26T09:20:00Z",
+    "createdBy": "Admin",
+    "published": true
+  },
+  {
+    "id": 202603010014,
+    "name": "Desk Plant",
+    "price": 299,
+    "icon": "🪴",
+    "createDate": "2026-02-28T15:00:00Z",
+    "createdBy": "Test_Em",
+    "published": true
+  },
+  {
+    "id": 202603010015,
+    "name": "Gaming Chair",
+    "price": 4999,
+    "icon": "🪑",
+    "createDate": "2026-02-25T12:10:00Z",
+    "createdBy": "Admin",
+    "published": true
+  },
+  {
+    "id": 202603010016,
+    "name": "Bluetooth Speaker",
+    "price": 1199,
+    "icon": "🔊",
+    "createDate": "2026-02-23T09:50:00Z",
+    "createdBy": "Admin",
+    "published": true
+  },
+  {
+    "id": 202603010017,
+    "name": "Travel Bag",
+    "price": 899,
+    "icon": "🎒",
+    "createDate": "2026-02-27T07:40:00Z",
+    "createdBy": "Test_Em",
+    "published": true
+  },
+  {
+    "id": 202603010018,
+    "name": "Wireless Charger",
+    "price": 799,
+    "icon": "⚡",
+    "createDate": "2026-02-28T10:05:00Z",
+    "createdBy": "Admin",
+    "published": false
+  },
+  {
+    "id": 202603010019,
+    "name": "Eco Bottle",
+    "price": 499,
+    "icon": "🧴",
+    "createDate": "2026-02-26T16:25:00Z",
+    "createdBy": "Test_Em",
+    "published": true
+  },
+  {
+    "id": 202603010020,
+    "name": "Apple Fruit",
+    "price": 29,
+    "icon": "🍎",
+    "createDate": "2026-02-28T18:30:00Z",
+    "createdBy": "Admin",
+    "published": true
+  }
+]

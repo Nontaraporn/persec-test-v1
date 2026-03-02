@@ -1,0 +1,83 @@
+.dashboard-container {
+  font-family: system-ui, sans-serif;
+  padding: 0;
+  min-height: 100vh;
+  /* background: #f8fafc; */
+}
+
+.dashboard-nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #2563eb;
+  color: white;
+  padding: 12px 24px;
+}
+
+.dashboard-nav h2 {
+  font-size: 1.2rem;
+}
+
+.nav-buttons button {
+  background: transparent;
+  border: none;
+  color: white;
+  margin-left: 16px;
+  cursor: pointer;
+  font-weight: 500;
+  transition: opacity 0.2s;
+}
+
+.nav-buttons button:hover {
+  opacity: 0.7;
+}
+
+.nav-buttons .active {
+  text-decoration: underline;
+}
+
+.logout-btn {
+  background: #ef4444 !important;
+  border-radius: 8px;
+  padding: 6px 10px;
+}
+
+.dashboard-content {
+  padding: 20px 40px;
+}
+
+.manager-container {
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.manager-form input {
+  margin-right: 8px;
+  padding: 6px 8px;
+}
+
+.manager-form button {
+  padding: 6px 10px;
+  background: #3b82f6;
+  border: none;
+  color: white;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.manager-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+.manager-table th,
+.manager-table td {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: center;
+}
+
+.manager-table th {
+  background: #f1f5f9;
+}

@@ -1,0 +1,120 @@
+/* ===== Page Container ===== */
+.login-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  /* background: linear-gradient(135deg, #dbeafe, #eff6ff); */
+  font-family: system-ui, sans-serif;
+}
+
+.dark .login-container {
+  background: linear-gradient(135deg, #111827, #1f2937);
+}
+
+/* ===== Login Box ===== */
+.login-box {
+  width: 340px;
+  background-color: var(--bg);
+  color: var(--text);
+  border-radius: 20px;
+  padding: 32px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  transition: all 0.3s ease;
+}
+
+:root {
+  --bg-light: #ffffff;
+  --text-light: #111;
+  --bg-dark: #1f2937;
+  --text-dark: #f3f3f3;
+}
+
+.light {
+  --bg: var(--bg-light);
+  --text: var(--text-light);
+}
+
+.dark {
+  --bg: var(--bg-dark);
+  --text: var(--text-dark);
+}
+
+/* ===== Title ===== */
+.login-box h2 {
+  font-size: 1.4rem;
+  font-weight: 600;
+  margin-bottom: 24px;
+}
+
+/* ===== Inputs ===== */
+.inputCustom {
+  width: -webkit-fill-available;
+  padding: 10px 14px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  margin-bottom: 12px;
+  font-size: 0.95rem;
+  outline: none;
+  transition: border 0.2s ease;
+}
+
+.inputCustom:focus {
+  border-color: #3b82f6;
+}
+
+/* ===== select ===== */
+.selectCustom {
+  width: 100%;
+  padding: 10px 14px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  margin-bottom: 12px;
+  font-size: 0.95rem;
+  outline: none;
+  transition: border 0.2s ease;
+}
+
+.selectCustom:focus {
+  border-color: #3b82f6;
+}
+
+/* ===== Button ===== */
+.login-btn {
+  width: 100%;
+  padding: 10px;
+  border: none;
+  border-radius: 10px;
+  background: linear-gradient(135deg, #3b82f6, #2563eb);
+  color: white;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+.login-btn:hover {
+  background: linear-gradient(135deg, #2563eb, #1d4ed8);
+}
+
+/* ===== Register Link ===== */
+.login-link {
+  display: block;
+  margin-top: 18px;
+  font-size: 0.9rem;
+  color: gray;
+  text-decoration: none;
+  transition: color 0.2s ease;
+}
+.login-link:hover {
+  color: #3b82f6;
+}
+
+/* ===== Preview debug ===== */
+.debug-info {
+  font-size: 0.8rem;
+  margin-top: 8px;
+  color: #777;
+}
+
+
